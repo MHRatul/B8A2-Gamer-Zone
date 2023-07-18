@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+/* resetting browser default properties */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+/* shared styles starts here */
+.menus a:hover, .menus i:hover{
+    transform: translateY(-0.13rem);
+    cursor: pointer;
+}
+.menus a:active, .menus i:active{
+    transform: translateY(0.13rem);
+    cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #3c354f;
+}
+
+/* shared styles ends here */
+
+
+/* header style starts here */
+.navbar {
+  min-height: 15vh;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo img {
+  width: 30%;
+}
+.logo h1 {
+  color: #0b0223;
+  font-weight: 700;
+  font-size: 30px;
+}
+.menus {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.flash_logo {
+  color: #ff42a5;
+}
+.menus .sub_menus {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}

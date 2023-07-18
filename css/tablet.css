@@ -1,0 +1,10 @@
+/* Responsive tablet designs */
+@media screen and (min-width: 577px) and (max-width: 990px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menus{
+        margin-top: 1.5rem;
+    }
+}

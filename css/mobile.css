@@ -1,0 +1,10 @@
+/* Responsive Mobile designs */
+@media screen and (max-width:576px) {
+    .navbar, .menus{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menus{
+        margin-top: 1.5rem;
+    }
+}
