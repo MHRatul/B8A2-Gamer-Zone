@@ -1,10 +1,186 @@
 /* Responsive Mobile designs */
-@media screen and (max-width:576px) {
-    .navbar, .menus{
-        flex-direction: column;
-        justify-content: center;
+@media screen and (max-width: 576px) {
+    /* navbar */
+    .navbar {
+      padding-top: 2rem;
+      box-shadow: none;
     }
-    .menus{
-        margin-top: 1.5rem;
+    .navbar,
+    .menus {
+      flex-direction: column;
+      justify-content: center;
     }
-}
+    .menus {
+      margin-top: 1.5rem;
+    }
+    /* navbar */
+  
+    /* main signin section */
+    main {
+      margin-top: 1rem;
+    }
+    .signin_section {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .signin_first,
+    .signin_second {
+      width: 63%;
+    }
+    .signin_first .player_highlight {
+      font-size: 50px;
+    }
+    .signin_section {
+      background-image: none;
+    }
+    .signin_first {
+      background-image: url("../images/Group\ 14.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    /* signin section */
+  
+    /* gamer section */
+    .gamer_section {
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    .gamer_photo,
+    .gamer_info {
+      width: 100%;
+    }
+    .gamer_info {
+      padding: 1rem;
+      align-items: center;
+    }
+    .gamer_info .game_para {
+      padding: 2rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .gamer_info h1 {
+      font-size: 1.6rem;
+    }
+    .gamer_info h3 {
+      font-size: 1rem;
+    }
+    .gamer_info button {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    /* gamer section */
+  
+    /* game_highlight_section starts */
+    .game_highlight_section {
+      flex-direction: column;
+      margin-top: 1.3rem;
+    }
+    .particular_games {
+      margin-bottom: 1rem;
+      width: 70%;
+    }
+    .online_section {
+      margin-top: 3rem;
+    }
+    /* game_highlight_section starts */
+  
+    /* instant_play_section */
+    .instant_play_section {
+      flex-direction: column;
+    }
+  
+    .instant_play-box_one {
+      width: 80%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .instant_play-box_one h1 {
+      font-size: 1.4rem;
+    }
+    .instant_play-box_one p {
+      margin-top: 1rem;
+      text-align: center;
+      line-height: 20px;
+    }
+    .instant_play_section {
+      margin-top: 1rem;
+    }
+  
+    .instant_play-box_two {
+      width: 70%;
+      height: 100%;
+    }
+    .aside_img {
+      bottom: -1rem;
+      left: -2rem;
+    }
+    /* instant_play_section */
+  
+    /* play_anywhere styles */
+    .instant_play-box_two .aside_img_remodify {
+      bottom: -1rem;
+      right: -2rem;
+    }
+  
+    /* career section styles */
+    .career_section {
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    .career_box_one {
+      height: 100%;
+      width: 80%;
+    }
+    .career_box_two {
+      width: 100%;
+      height: 100%;
+      padding-left: 3.5rem;
+    }
+    /* sponsors_section starts here */
+    .sponsors_section {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(3,30vw);
+      grid-template-rows: repeat(3,auto);
+      grid-gap: 1rem;
+      place-items: center;
+    }
+    .spons_item{
+      width: 100%;
+      box-shadow: 1px 2px 4px black;
+    }
+    .spons_item h5{
+      font-size: x-small;
+      text-align: center;
+    }
+    .spons_item img{
+      width: 70%;
+    }
+  
+    /* footer section styles */
+    .foot-title img {
+      width: 15%;
+    }
+    .foot-nav{
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,1fr);
+      grid-gap: 1rem;
+    }
+    .footer_sponsor{
+      grid-template-columns: repeat(3,10vw);
+      font-size: 25px;
+      place-items: center;
+    }
+    .foot-menu{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .copyright{
+      font-size: x-small;
+      padding: 0 6rem;
+    }
+  }
