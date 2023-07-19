@@ -109,6 +109,9 @@
     }
     .instant_play_section {
       margin-top: 1rem;
+      align-items: center;
+      justify-content: center;;
+      text-align: center;
     }
   
     .instant_play-box_two {
@@ -125,10 +128,19 @@
     .instant_play-box_two .aside_img_remodify {
       bottom: -1rem;
       right: -2rem;
+      width: 80%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;;
     }
   
     /* career section styles */
     .career_section {
+        align-items: center;
+        justify-content: center;;
+        text-align: center;
       flex-direction: column;
       margin-top: 1rem;
     }
@@ -144,14 +156,17 @@
     /* sponsors_section starts here */
     .sponsors_section {
       display: grid;
-      width: 100%;
+      width: 35%;
       grid-template-columns: repeat(3,30vw);
       grid-template-rows: repeat(3,auto);
       grid-gap: 1rem;
       place-items: center;
+      align-items: center;
+      justify-content: center;;
+      text-align: center;
     }
     .spons_item{
-      width: 100%;
+      width: 75%;
       box-shadow: 1px 2px 4px black;
     }
     .spons_item h5{
@@ -159,7 +174,7 @@
       text-align: center;
     }
     .spons_item img{
-      width: 70%;
+      width: 30%;
     }
   
     /* footer section styles */
@@ -172,15 +187,24 @@
       grid-gap: 1rem;
     }
     .footer_sponsor{
-      grid-template-columns: repeat(3,10vw);
+      grid-template-columns: repeat(3, 2fr);
       font-size: 25px;
       place-items: center;
+      align-items: center;
+      justify-content: center;;
+      text-align: center;
     }
     .foot-menu{
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: repeat(2, 2fr);
     }
     .copyright{
+        grid-template-columns: repeat(1,2fr);
+        grid-template-rows: repeat(1,2fr);
+        align-items: center;
+        justify-content: center;;
+        text-align: center;
       font-size: x-small;
       padding: 0 6rem;
+      width: 50%;
     }
   }

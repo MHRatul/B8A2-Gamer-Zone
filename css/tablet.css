@@ -1,10 +1,199 @@
 /* Responsive tablet designs */
 @media screen and (min-width: 577px) and (max-width: 990px) {
-    .navbar{
-        flex-direction: column;
-        justify-content: center;
+    /* navbar */
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
     }
-    .menus{
-        margin-top: 1.5rem;
+    .menus {
+      margin-top: 1rem;
     }
-}
+    /* navbar */
+  
+    /* main starts  */
+  
+    /* signin_section */
+    main {
+      margin-top: 1rem;
+    }
+    .signin_section {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .signin_first,
+    .signin_second {
+      width: 80%;
+    }
+    .signin_first {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-self: left;
+    }
+    /* signin section */
+  
+    /* gamer section */
+    .gamer_section {
+      flex-direction: column;
+      margin-top: 1rem;
+      gap: 0;
+    }
+    .gamer_photo,
+    .gamer_info {
+      width: 100%;
+    }
+    .gamer_info {
+      padding: 1rem;
+      align-items: center;
+    }
+    .gamer_info .game_para {
+      padding: 1rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .gamer_info h1 {
+      font-size: 1.6rem;
+    }
+    .gamer_info button {
+      margin-top: 0;
+      margin-bottom: 3rem;
+    }
+    /* gamer section */
+  
+    /* game_highlight_section */
+    .game_highlight_section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+      margin-top: 1.2rem;
+      grid-gap: 0;
+    }
+    .particular_games {
+      margin-bottom: 1rem;
+      width: 80%;
+    }
+    .online_section {
+      margin-top: 5rem;
+    }
+    /* game_highlight_section */
+    /* instant_play_section */
+    .instant_play_section {
+      flex-direction: column-reverse;
+    }
+  
+    .instant_play-box_one {
+      width: 80%;
+      margin-top: 8rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .instant_play-box_one h1 {
+      font-size: 2rem;
+    }
+    .instant_play-box_one p {
+      margin-top: 1rem;
+      text-align: justify;
+      line-height: 20px;
+    }
+    .instant_play_section {
+      margin-top: 1rem;
+      align-items: center;
+      justify-content: center;;
+      text-align: center;
+    }
+  
+    .instant_play-box_two {
+      width: 70%;
+      height: 100%;
+    }
+    .aside_img {
+      bottom: -1rem;
+      left: -2rem;
+    }
+    /* instant_play_section */
+  
+    /* play_anywhere styles */
+    .play_anywhere {
+      flex-direction: column-reverse;
+    }
+    .instant_play-box_two .aside_img_remodify {
+      bottom: -1rem;
+      right: -2rem;
+    }
+  
+    /* career section styles */
+    .career_section {
+        align-items: center;
+        justify-content: center;;
+        text-align: center;
+      flex-direction: column-reverse;
+      margin-top: 1rem;
+    }
+    .career_box_one {
+      height: 100%;
+      width: 80%;
+    }
+    .career_box_two {
+      width: 100%;
+      height: 100%;
+      padding-left: 3.5rem;
+    }
+    /* career section styles */
+    /* sponsors_section starts here */
+    .sponsors_section {
+      display: grid;
+      width: 35%;
+      grid-template-columns: repeat(3, 30vw);
+      grid-template-rows: repeat(3, auto);
+      grid-gap: 1rem;
+      place-items: center;
+      align-items: center;
+      justify-content: center;;
+      text-align: center;
+    }
+    .spons_item {
+      width: 75%;
+      box-shadow: 1px 2px 4px black;
+    }
+    .spons_item img {
+      width: 30%;
+    }
+  
+    /* footer section styles */
+    .foot-title img {
+      width: 15%;
+    }
+    .foot-nav {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 1rem;
+    }
+    .footer_sponsor {
+      grid-template-columns: repeat(3, 2fr);
+      font-size: 25px;
+      place-items: center;
+      align-items: center;
+      justify-content: center;;
+      text-align: center;
+    }
+    .foot-menu {
+      grid-template-columns: repeat(2, 2fr);
+    }
+    .copyright {
+        grid-template-columns: repeat(1,2fr);
+        grid-template-rows: repeat(1,2fr);
+        align-items: center;
+        justify-content: center;;
+        text-align: center;
+      font-size: x-small;
+      padding: 0 6rem;
+      width: 50%;
+    }
+  }
